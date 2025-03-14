@@ -73,7 +73,7 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import LandingPage from './suby/pages/LandingPage';
-import { Routes, Route, Navigate, useNavigate } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import ProductMenu from './suby/components/productMenu';
 import TopBar from './suby/components/TopBar';
 import Cart from './suby/components/Cart';

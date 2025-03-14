@@ -6,7 +6,6 @@ import FirmCollections from "../components/FirmCollections";
 import Temp from "../components/Temp";
 import Login from "../components/Login";
 import SignUp from "../components/SignUp";
-import LandingPage2 from "../../../../../react_dashboard/dashboard/src/vendorDashboard/pages/LandingPage";
 import Profile from "../components/Profile";
 import Footer from "../components/Footer";
 import BestPlaces from "../components/BestPlaces";
