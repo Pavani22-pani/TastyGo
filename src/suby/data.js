@@ -1,0 +1,33 @@
+export const itemData=[
+{
+    item_image:"/assets/items/Biryani.png"
+},
+{
+    item_image:"/assets/items/Cake.png"
+},
+{
+    item_image:"/assets/items/Chinese.png"
+},
+{
+    item_image:"/assets/items/Chole_bature.png"
+},
+{
+    item_image:"/assets/items/lassie.png"
+},
+{
+    item_image:"/assets/items/Noodles.png"
+},
+{
+    item_image:"/assets/items/Poori.png"
+}
+,
+{
+    item_image:"/assets/items/Dosa.png"
+},
+{
+    item_image:"/assets/items/Pancake.png"
+},
+{
+    item_image:"/assets/items/Vada.png"
+}
+]
