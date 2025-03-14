@@ -111,7 +111,7 @@
 
 
 import React, { useState, useEffect } from "react";
-import TopBar from './Topbar';
+import TopBar from './TopBar';
 import Profile from "../components/Profile";
 import { API_URL } from "../api";
 import PlaceOrder from "../components/PlaceOrder";
