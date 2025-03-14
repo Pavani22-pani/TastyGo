@@ -75,18 +75,10 @@ import './App.css';
 import LandingPage from './suby/pages/LandingPage';
 import { Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import ProductMenu from './suby/components/productMenu';
-import TopBar from './suby/components/Topbar';
+import TopBar from './suby/components/TopBar';
 import Cart from './suby/components/Cart';
 
-const RedirectToDashboard = () => {
-  const navigate = useNavigate();
 
-  useEffect(() => {
-    navigate("/");
-  }, []);
-
-  return null;
-};
 
 const UnauthorizedRedirect = () => {
   alert("User not logged in. Please login!");
@@ -114,7 +106,6 @@ function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="products/:firmId/:firmName" element={<ProductMenu />} />
-        <Route path="/dashboard" element={<RedirectToDashboard />} />
 
         {token ? (
           <Route path="cart" element={<Cart />} />

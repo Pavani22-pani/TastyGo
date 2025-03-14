@@ -1,5 +1,5 @@
 import React, { useState ,useEffect} from "react";
-import TopBar from "../components/Topbar";
+import TopBar from "../components/TopBar";
 import ItemsDisplay from "../components/ItemsDisplay";
 import Chains from "../components/Chains";
 import FirmCollections from "../components/FirmCollections";
