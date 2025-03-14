@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { API_URL } from '../api'
 import { useParams } from 'react-router-dom'
-import TopBar from './Topbar'
+import TopBar from './TopBar'
 import Temp from "../components/Temp";
 import Login from "../components/Login";
 import SignUp from "../components/SignUp";
