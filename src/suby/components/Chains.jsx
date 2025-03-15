@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import { API_URL } from '../api'
 import { FaRegArrowAltCircleRight } from "react-icons/fa"
 import { FaRegArrowAltCircleLeft } from "react-icons/fa"
-import { MutatingDots } from 'react-spinners'
+import { MutatingDots } from 'react-loader-spinner'
 
 const Chains=()=>{
     const [vendorData, setVendorData] = useState({ vendors: [] });
